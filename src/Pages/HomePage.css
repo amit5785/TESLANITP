@@ -164,6 +164,15 @@ nav{
     height: 250px;
     border-radius: 5px;
 }
+
+.container h1{
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size:x-large;
+    margin-bottom: 1vh;
+}
+
 .activities div:hover {
     background-color: transparent;
     border: 2px solid #61BADD;
@@ -318,6 +327,11 @@ footer a {
         min-width: 125px;
         width: auto;
         height: auto;
+    }
+
+    .container h1{
+        font-size:large;
+        margin-bottom: 0.5vh;
     }
     .about{
         flex-direction: column;

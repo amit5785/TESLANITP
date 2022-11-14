@@ -54,13 +54,20 @@ function HomePage() {
                     <div id="text">
                         <h1 className="text">TESLA Folio</h1>
                         <p className="text">Portfolio of Electrical Engineers(NITP) at one place.</p>
-                        <form className="commingsoon" action="/eesa" method="post">
-                            <button>Visit</button>
+                        <form className="commingsoon" >
+                        <a href='https://eesafolio.herokuapp.com' target="_blank" rel="noreferrer">
+                            <button type='button'>
+                                Visit
+                            </button>
+                        </a>
                         </form>
                     </div>
                 </div>
             </div>
             <Footer/>
+
+           
+
         </div>
 
     )

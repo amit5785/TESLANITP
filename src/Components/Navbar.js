@@ -8,7 +8,7 @@ import './Navbar.css'
 
 function Navbar() {
     return (
-        <nav>
+        <nav class="navigation">
                 <div className="logo" >
                     <NavLink style={{textDecoration: 'none', color: 'white'}} to='/'>
                     <Logo />
@@ -22,10 +22,10 @@ function Navbar() {
                         <NavLink style={{textDecoration: 'none', color: 'white'}} to='/team'>Team</NavLink>
                     </li>
                     <li>
-                        Internship
+                        <NavLink style={{textDecoration: 'none', color: 'white'}} to='/event'>Event</NavLink>
                     </li>
                     <li>
-                        Contact
+                    <NavLink style={{textDecoration: 'none', color: 'white'}} to='/faculty'>Faculty's Bureau</NavLink>
                     </li>
                 </ul>
                 <div className="burger">
@@ -34,7 +34,7 @@ function Navbar() {
                     <div className="line3" />
                 </div>
                 <Helmet>
-                    <script src="../../public/ind.js"></script>
+                    <script src="ind.js"></script>
                 </Helmet>
         </nav>
     )

@@ -1,0 +1,18 @@
+.EventsHolder{
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 40px 40px;
+  color: white;
+  background-image: linear-gradient(rgb(25, 35, 52) 0%, rgb(13, 16, 30) 100%);
+}
+
+.Events{
+  display: grid;
+  gap: 5vh 2vw;
+  grid-template-rows: repeat(0,minmax(200px,250px));
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  justify-items: center;
+  justify-content: center;
+}

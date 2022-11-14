@@ -19,7 +19,6 @@ nav{
     display: flex;
     justify-content:space-around;
     width: 30em;
-
     margin-left: auto;
 }
 .nav-links li{

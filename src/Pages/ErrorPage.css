@@ -1,0 +1,43 @@
+.main-Error-page-container{
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center; 
+  color: white;
+  background-image: linear-gradient(rgb(25, 35, 52) 0%, rgb(13, 16, 30) 100%);
+}
+.Error-page-container{
+  font-size: 0.8em;
+  background-color: #202330;
+  border: 2px solid rgba(0, 151, 251, 0.25);
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+
+  min-width: 180px;
+  max-width: 400px;
+  width: 30em;
+}
+
+.Error-page-container h1{
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.Error-page-container:hover {
+  background-color: transparent;
+  border: 2px solid #61BADD;
+  box-shadow: 0px 4px 20px rgba(0, 151, 251, 0.25);
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+  cursor: pointer;
+}
+
+
+@media screen and (max-width : 768px) {
+  .Error-page-container{
+    font-size:0.5em;
+  }
+}
+

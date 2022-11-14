@@ -69,6 +69,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5%;
 }
 .about svg {
     width: 30%;
@@ -87,7 +88,7 @@ nav{
     /* flex-direction: row; */
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 5%;
 }
 .blog #text{
     padding: 10px 10px;
@@ -335,8 +336,7 @@ footer a {
     }
     .about{
         flex-direction: column;
-        margin-bottom: 50%;
-       
+        margin-bottom: 10%;
     }
     .about svg {
         width: 100%;
@@ -349,7 +349,7 @@ footer a {
     .blog{
         width: 100%;
         flex-direction: column-reverse;
-        margin-bottom: 50%;
+        /* margin-bottom: 50%; */
     }
     .blog #text{
         width: 80%;

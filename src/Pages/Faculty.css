@@ -47,6 +47,11 @@
   justify-items: center;
 }
 
+.tesla-span{
+  font-size: 1em;
+  font-weight: bold;
+}
+
 
 
 @media screen and (max-width: 768px){

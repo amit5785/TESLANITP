@@ -1,4 +1,4 @@
-import React from 'react'
+import {React,useEffect} from 'react'
 import './HomePage.css'
 import { Activities } from '../Data/activities'
 import Whoarewe from '../Assets/Whoarewe'
@@ -7,7 +7,11 @@ import EESAFolio from '../Assets/EESAFolio'
 import BlogSVG from '../Assets/BlogSVG'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
+
+
 function HomePage() {
+
+// useEffect(()=>{console.log("Amit Kumar")});
 
     return (
         <div>
